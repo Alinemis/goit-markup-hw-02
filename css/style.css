@@ -1,7 +1,8 @@
 :root {
   --secondary-text-color: #2e2f42;
   --primary-text-color: #434455;
-  --acent-color: #4d5ae5;
+  --btn-color: #4d5ae5;
+  --acent-color: #404bbf;
   --white-color: #ffffff;
   --footer-text-color: #f4f4fd;
   --header-background-color: #e7e9fc;
@@ -9,7 +10,121 @@
 
 body {
   background-color: var(--white-color);
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
+  font-family: "roboto", sans-serif;
+  letter-spacing: 0.02em;
 }
 
 /* Header */
+
+.logo {
+  color: var(--btn-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.span-logo {
+  color: var(--secondary-text-color);
+}
+
+.header-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--acent-color);
+}
+
+.header-address {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-contact {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+/* main */
+.main {
+}
+.hero {
+  background-color: var(--secondary-text-color);
+}
+.hero-title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.hero-button {
+  background-color: var(--btn-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  font-family: "roboto", sans-serif;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--acent-color);
+}
+.inform {
+}
+.inform-title {
+}
+.inform-list {
+}
+.inform-item {
+}
+.inform-list-title {
+}
+.inform-text {
+}
+.product {
+}
+.product-title {
+}
+.product-list {
+}
+.product-item {
+}
+.product-img {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-second-title {
+}
+.team-text {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
