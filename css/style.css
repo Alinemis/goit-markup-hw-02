@@ -1,24 +1,25 @@
 :root {
-  --secondary-text-color: #2e2f42;
   --primary-text-color: #434455;
-  --btn-color: #4d5ae5;
+  --secondary-text-color: #2e2f42;
+  --btn--logo-color: #4d5ae5;
   --acent-color: #404bbf;
   --white-color: #ffffff;
-  --footer-text-color: #f4f4fd;
-  --header-background-color: #e7e9fc;
+  --light-color: #f4f4fd;
 }
 
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: "roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /* Header */
 
 .logo {
-  color: var(--btn-color);
+  color: var(--btn--logo-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -35,9 +36,6 @@ body {
 .header-link {
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -50,21 +48,19 @@ body {
 
 .header-address {
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .header-contact {
-  text-decoration: none;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 /* main */
-.main {
-}
+
 .hero {
   background-color: var(--secondary-text-color);
 }
+
 .hero-title {
   color: var(--white-color);
   font-weight: 700;
@@ -72,56 +68,55 @@ body {
   line-height: 1.07;
   text-align: center;
 }
+
 .hero-button {
-  background-color: var(--btn-color);
+  background: var(--btn--logo-color);
   color: var(--white-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   font-family: "roboto", sans-serif;
+  cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--acent-color);
 }
-.inform {
-}
-.inform-title {
-}
-.inform-list {
-}
-.inform-item {
-}
+
 .inform-list-title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
-.inform-text {
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
-.product {
-}
-.product-title {
-}
-.product-list {
-}
-.product-item {
-}
-.product-img {
-}
+
 .team {
+  background-color: var(--light-color);
 }
-.team-title {
-}
-.team-list {
-}
-.team-item {
-}
-.team-img {
-}
+
 .team-second-title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
 }
+
 .team-text {
+  color: var(--primary-text-color);
+  text-align: center;
 }
+
 .footer {
 }
 .footer-logo {
