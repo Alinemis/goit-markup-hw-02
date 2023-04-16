@@ -70,6 +70,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -93,6 +94,7 @@ body {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   line-height: 1.2;
 }
 
@@ -107,6 +109,10 @@ body {
 }
 
 .team {
+  background-color: var(--light-color);
+}
+
+.team-list {
   background-color: var(--white-color);
 }
 
@@ -115,6 +121,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -156,15 +163,12 @@ body {
   color: var(--white-color);
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-}
-
 .portfolio-third-title {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
